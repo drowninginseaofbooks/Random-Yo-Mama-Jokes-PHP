@@ -1,5 +1,19 @@
 <?php
-    $jokes = array("Yo mama's so poor, the ducks throw bread at her.", "Yo mama's cooking is so nasty, the house flies got together to fix the hole in the window screen.", "Yo mama's so depressing, blues singers come to visit her when they've got writer's block.", "Yo mama's so short, you can see her feet on her driver's license.", "Yo mama is so old, she walked into an antique store, and they didn't let her leave.", "Yo mama so poor, your family ate cereal with a fork to save milk.", "Yo mama's house is so dirty, she has to wipe her feet before she goes outside.", "Yo mama's teeth are so yellow, when she smiles at traffic, it slows down.", "Yo mama so old, she walked out of a museum and the alarm went off.", "Yo mama's so mean, they don't give her happy meals at McDonald's.", "Yo mama is so poor that when I saw her kicking a can down the street, I asked her what she was doing, and she said, 'Moving'.", "Yo mama's house is so small, when she drops a Kleenex she has wall-to-wall carpeting.");
+    $jokes = array(
+                    "Yo mama's so poor, the ducks throw bread at her.", 
+                    "Yo mama's cooking is so nasty, the house flies got together to fix the hole in the window screen.", 
+                    "Yo mama's so depressing, blues singers come to visit her when they've got writer's block.", 
+                    "Yo mama's so short, you can see her feet on her driver's license.", 
+                    "Yo mama is so old, she walked into an antique store, and they didn't let her leave.", 
+                    "Yo mama so poor, your family ate cereal with a fork to save milk.", 
+                    "Yo mama's house is so dirty, she has to wipe her feet before she goes outside.", 
+                    "Yo mama's teeth are so yellow, when she smiles at traffic, it slows down.", 
+                    "Yo mama so old, she walked out of a museum and the alarm went off.", 
+                    "Yo mama's so mean, they don't give her happy meals at McDonald's.", 
+                    "Yo mama is so poor that when I saw her kicking a can down the street, I asked her what she was doing, and she said, 'Moving'.", 
+                    "Yo mama's house is so small, when she drops a Kleenex she has wall-to-wall carpeting."
+    );
+
     $rand = rand(0, 11);
     echo "<h1>RANDOM YO MAMA JOKES</h1><br>";
     echo "<h1>" . $jokes[$rand] . "</h1>";
